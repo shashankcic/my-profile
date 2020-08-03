@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(230,230,230);
+  color: rgb(30,30,30);
+  font-family: "Trebuchet MS";
+}
+
+h1 {
+  color: #6666ff;
+  font-family: Courier;
+  font-weight: 500;
+  letter-spacing: 3px;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
