@@ -1,19 +1,36 @@
+/* Colours and Fonts */
+
 body {
-  background-color: rgb(230,230,230);
-  color: rgb(30,30,30);
-  font-family: "Trebuchet MS";
+  background: rgb(230,230,230);
+  color: rgb(50,50,50);
+  font-family: Lora, serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+h1, h2, h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: lighter;
 }
 
 h1 {
-  color: #6666ff;
-  font-family: Courier;
-  font-weight: 500;
-  letter-spacing: 3px;
+  color: #7575ff;
   font-size: 40px;
-  text-align: center;
-  text-transform: uppercase;
+}
+
+h2 {
+  color: rgb(100,100,100);
+  font-size: 28px;
 }
 
 a {
+  font-family: "Josefin Sans", sans-serif;
   text-decoration: none;
+  color: #7575ff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #2020ff;
 }
