@@ -42,6 +42,12 @@ a:hover {
   margin: 40px auto;
 }
 
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
+}
+
 .card-white {
   background-color: white;
   padding: 40px;
