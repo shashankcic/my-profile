@@ -35,20 +35,59 @@ a:hover {
   color: #2020ff;
 }
 
-div {
-  background: white;
-  border: 2px solid black;
-  margin: 10px;
+/* Custom Design with Class*/
+
+.container {
+  width: 60%;
+  margin: 40px auto;
 }
 
-#logo {
-  width: 25%;
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
 }
 
 .img-circle {
   border-radius: 50%;
 }
 
-.shadowed {
-  box-shadow: 3px 3px 3px rgba(0,0,0,0.9);
+.btn-blue {
+  background-color: #7575ff;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  transition: color 0.3s ease;
+}
+
+.btn-blue:hover {
+  background-color: #5050ff;
+  color: #eeeeee;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230,230,230);
+}
+
+.list-inline i:hover {
+  font-size: 50px;
+  color: rgb(30,30,30);
+}
+
+#introduction p {
+  margin-bottom: 20px;
 }
