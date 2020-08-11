@@ -28,11 +28,12 @@ a {
   text-decoration: none;
   color: #7575ff;
   font-weight: bold;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease-in-out;
 }
 
 a:hover {
   color: #2020ff;
+  transform: scale(1.5);
 }
 
 /* Custom Design with Class*/
@@ -60,6 +61,12 @@ a:hover {
 
 .img-circle {
   border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.img-circle:hover {
+  border-radius: 15%;
+  transform: scale(1.15);
 }
 
 .btn-blue {
@@ -67,12 +74,13 @@ a:hover {
   color: white;
   padding: 15px 20px;
   border-radius: 4px;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn-blue:hover {
   background-color: #5050ff;
   color: #eeeeee;
+  transform: scale(1.5);
 }
 
 .list-inline {
@@ -81,18 +89,19 @@ a:hover {
 }
 
 .list-inline li {
-  display: inline;
+  display: inline-block;
   padding: 10px;
 }
 
 .list-inline i {
   font-size: 50px;
   color: rgb(210,210,210);
+  transition: all 0.3s ease-in-out;
 }
 
 .list-inline i:hover {
-  font-size: 50px;
   color: rgb(30,30,30);
+  transform: scale(1.5);
 }
 
 #introduction p {
